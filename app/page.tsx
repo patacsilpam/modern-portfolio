@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { FaHome } from "react-icons/fa";
 import { navItems } from "@/data/global";
+import Grid from "@/components/Grid";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <Hero/>
+        <Grid/>
       </div>
     </main>
   );
