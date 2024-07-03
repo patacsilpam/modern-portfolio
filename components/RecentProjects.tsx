@@ -16,7 +16,7 @@ const RecentProjects = () => {
                 flex items-center justify-center sm:w-96 w-[80vw]'>
                     <PinContainer  title={title}>
                         <div className='relativ flex items-center justify-center 
-                        sm:w-96 w-[80vw] overflow-hidden h-[50vh]'>
+                        sm:w-96 w-[80vw] overflow-hidden h-[40vh]'>
                             <div>
                                 <img src="/bg-png" alt="bg-img" />
                             </div>
